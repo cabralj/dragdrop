@@ -1,0 +1,53 @@
+body {
+
+	font-family: Arial,Helvetica,Sans-Serif;	
+	overflow:hidden;
+	margin:0px;
+
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+}
+
+.page {
+	width:900px;
+	height:675px;
+	border:1px solid #000;
+}
+
+.page-header {
+	background-image:url('img/header.jpg');
+	width:900px; 
+	height:75px;
+}
+
+.page-header-label {
+	font-size: 10pt;
+	font-weight: bolder;
+	color: #000;
+	margin:15px;
+}
+
+.page-footer {
+
+
+}
+
+
+/**
+ ----------------------------------
+ */
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}

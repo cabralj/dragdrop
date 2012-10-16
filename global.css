@@ -1,0 +1,63 @@
+body {
+
+	font-family: Arial,Helvetica,Sans-Serif;	
+	overflow:hidden;
+	margin:0px;
+
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+}
+
+.page {
+	border:1px solid #000;
+	width:900px;
+	height:675px;
+}
+
+.page-header {
+	background-image:url('img/header.jpg');
+	width:900px; 
+	height:75px;
+}
+
+.page-header-label {
+	font-size: 10pt;
+	font-weight: bolder;
+	color: #FFF;
+	margin:15px;
+}
+
+.contents {
+	border:1px solid #000;
+	position:absolute;
+	top:80px;
+	left:0px;
+	width:900px;
+	height:540px;
+}
+
+
+.page-footer {
+	position:absolute;
+	top:630px;left:15px;
+}
+
+
+/**
+ ----------------------------------
+ */
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
